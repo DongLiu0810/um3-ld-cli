@@ -1,6 +1,7 @@
 {
-  "name": "umi3-ld",
-  "version": "1.0.0",
+  "name": "umi3-ld-cli",
+  "version": "0.0.1",
+  "private": false,
   "description": "",
   "main": "index.js",
   "bin": {
@@ -28,13 +29,11 @@
     "axios": "^0.21.1",
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
+    "cross-spawn": "^7.0.3",
     "download-git-repo": "^3.0.2",
     "figlet": "^1.5.0",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.0.0",
     "ora": "^5.4.0"
-  },
-  "devDependencies": {
-    "cross-spawn": "^7.0.3"
   }
 }
